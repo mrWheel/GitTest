@@ -1,5 +1,5 @@
 /*
-  Blink
+  Blink for GitTest
   Turns on an LED on for one second, then off for one second, repeatedly.
  
   This example code is in the public domain.
@@ -10,7 +10,7 @@
 // Pin 6  has the LED on Teensy++ 2.0
 // Pin 13 has the LED on Teensy 3.0
 // give it a name:
-int led = 13;
+int led = BUILTIN_LED;
 
 // the setup routine runs once when you press reset:
 void setup() {                
